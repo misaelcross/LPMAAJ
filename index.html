@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAAJ Capital - Business Funding Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'eerie-black': '#20231C',
+                        'ecru': '#CBB171',
+                        'night': '#0D0E0E',
+                        'white': '#FFFFFF',
+                        'black': '#080807'
+                    },
+                    backdropBlur: {
+                        'xs': '2px',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glass-dark {
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-night to-black text-white font-inter">
+    <!-- Header/Navigation -->
+    <nav class="glass-dark fixed w-full z-50 px-6 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <img class="h-12 w-12" src="log01.png" alt="MAAJ Capital Logo">
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="hover:text-ecru transition-colors">Home</a>
+                <a href="#" class="hover:text-ecru transition-colors">Business Loans</a>
+                <a href="#" class="hover:text-ecru transition-colors">Business Credit</a>
+                <a href="#" class="hover:text-ecru transition-colors">Pricing</a>
+                <a href="#" class="hover:text-ecru transition-colors">About Us</a>
+                <a href="#" class="hover:text-ecru transition-colors">Contact Us</a>
+            </div>
+            <div class="flex space-x-4 justify-center items-center">
+                <a href="#" class="text-white hover:text-ecru transition-colors">Client Login</a>
+                <a href="#" class="bg-ecru text-night px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-all">
+                    GET STARTED
+                </a>
+                <a href="https://www.instagram.com/melvin_johnson12/" class="text-white hover:text-ecru transition-colors" target="_blank">
+                    <i class="fab fa-instagram text-xl"></i>
+                </a>
+            </div>            
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center pt-20 px-6">
+        <div class="container mx-auto grid md:grid-cols-2 gap-12 items-center py-6">
+            <div class="text-left">
+                <h1 class="text-5xl md:text-5xl font-bold my-6">
+                    Get the Funding<br/>
+                    You Need.<br/>
+                    <span class="text-ecru">Fast. Transparent. No Hassle.</span>
+                </h1>
+                <p class="text-xl mb-8 text-gray-300">
+                    MAAJ Capital helps business owners access the best financing and credit solutions to fuel their growth. Work with trusted financial experts who deliver real results – no hidden fees, no surprises.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#" class="bg-ecru text-night px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-all">
+                        Start Your Free Funding Plan
+                    </a>
+                </div>
+                <p class="mt-6 text-gray-400">Trusted by thousands of business owners across the U.S.</p>
+                <p class="text-ecru font-semibold">$100M+ in Funding Secured | 5,000+ Clients Funded</p>
+            </div>
+            <div class="relative">
+                <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="Business Funding" class="rounded-2xl w-full object-cover h-[600px]">
+                <div class="glass absolute top-4 left-4 p-6 rounded-xl">
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-ecru/60 p-3 rounded-lg">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-800">Funding Secured</p>
+                            <p class="text-2xl font-bold">$100M+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass absolute bottom-4 right-4 p-6 rounded-xl">
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-ecru/60 p-3 rounded-lg">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-800">Fast Approval</p>
+                            <p class="text-2xl font-bold">48hrs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose MAAJ Capital Section -->
+    <section class="py-20 px-6">
+        <div class="container mx-auto text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">Why Choose MAAJ Capital?</h2>
+        </div>
+        <div class="container mx-auto grid md:grid-cols-4 gap-8">
+            <div class="glass rounded-xl p-8">
+                <div class="flex justify-left mb-6">
+                    <i data-lucide="briefcase" class="w-12 h-12 text-ecru"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Expert-Led Funding Solutions</h3>
+                <p class="text-gray-400 mb-6">Led by Melvin Johnson, a top business funding expert with years of experience helping businesses secure capital.</p>
+            </div>
+            <div class="glass rounded-xl p-8">
+                <div class="flex justify-left mb-6">
+                    <i data-lucide="timer" class="w-12 h-12 text-ecru"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Fast & Flexible Financing</h3>
+                <p class="text-gray-400 mb-6">Secure up to $500,000+ in business funding within weeks – no unnecessary paperwork, no hassle.</p>
+            </div>
+            <div class="glass rounded-xl p-8">
+                <div class="flex justify-left mb-6">
+                    <i data-lucide="shield-check" class="w-12 h-12 text-ecru"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-4">No Hidden Fees or Fine Print</h3>
+                <p class="text-gray-400 mb-6">100% transparent funding with ethical lending practices.</p>
+            </div>
+            <div class="glass rounded-xl p-8">
+                <div class="flex justify-left mb-6">
+                    <i data-lucide="bar-chart-3" class="w-12 h-12 text-ecru"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Personalized Funding Strategy</h3>
+                <p class="text-gray-400 mb-6">Get a custom business funding plan tailored to your unique financial goals.</p>
+            </div>
+        </div>
+        <div class="text-center mt-12">
+            <a href="#" class="bg-ecru text-night px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-all inline-block">
+                Start My Free Funding Plan
+            </a>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-20 px-6 bg-gradient-to-b from-transparent to-night/50 relative overflow-hidden mb-12">
+        <!-- Central gradient circle for the entire section -->
+        <div class="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] rounded-full bg-[rgb(203,177,113)] opacity-10 blur-3xl"></div>
+        
+        <div class="container mx-auto text-center relative z-10">
+            <h2 class="text-3xl font-bold mb-12">How It Works</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-dark rounded-xl p-8 relative overflow-hidden">
+                    <div class="relative z-10">
+                        <div class="bg-ecru/60 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-xl font-bold">1</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Apply in Minutes</h3>
+                        <p class="text-gray-300 mb-6">Fill out a quick online funding assessment.</p>
+                    </div>
+                </div>
+                <div class="glass-dark rounded-xl p-8 relative overflow-hidden">
+                    <div class="relative z-10">
+                        <div class="bg-ecru/60 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-xl font-bold">2</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Get Matched with Lenders</h3>
+                        <p class="text-gray-300 mb-6">We connect you with lenders who are ready to work with you.</p>
+                    </div>
+                </div>
+                <div class="glass-dark rounded-xl p-8 relative overflow-hidden">
+                    <div class="relative z-10">
+                        <div class="bg-ecru/60 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-xl font-bold">3</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Get Funded Fast</h3>
+                        <p class="text-gray-300 mb-6">Receive funds in as little as 48 hours.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <p class="text-xl text-ecru mb-4">No impact on your personal credit score!</p>
+                <p class="text-xl text-ecru mb-8">Zero upfront costs – pay only when you secure funding!</p>
+                <a href="#" class="bg-ecru text-night px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-all inline-block">
+                    Find My Best Funding Options
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Types of Business Funding Section -->
+    <section class="py-20 px-6 bg-white/90">
+        <div class="container mx-auto text-center mb-12 text-black">
+            <h2 class="text-3xl font-bold">Types of Business Funding</h2>
+        </div>
+        <div class="container mx-auto grid md:grid-cols-3 gap-8">
+            <div class="glass rounded-xl p-8 bg-black/70">
+                <h3 class="text-xl font-bold mb-4">Business Credit Lines</h3>
+                <p class="text-gray-200">Get access to unsecured credit lines without using personal credit.</p>
+            </div>
+            <div class="glass rounded-xl p-8 bg-black/70">
+                <h3 class="text-xl font-bold mb-4">Credit Line Hybrid</h3>
+                <p class="text-gray-200">Up to $150,000 with 0% intro APR financing.</p>
+            </div>
+            <div class="glass rounded-xl p-8 bg-black/70">
+                <h3 class="text-xl font-bold mb-4">SBA Loans</h3>
+                <p class="text-gray-200">Ideal for established businesses looking for long-term financing.</p>
+            </div>
+            <div class="glass rounded-xl p-8 bg-black/70">
+                <h3 class="text-xl font-bold mb-4">Alternative Lending</h3>
+                <p class="text-gray-200">Get funded based on revenue and business strengths.</p>
+            </div>
+            <div class="glass rounded-xl p-8 bg-black/70">
+                <h3 class="text-xl font-bold mb-4">Equipment Financing</h3>
+                <p class="text-gray-200">Secure funding for machinery, vehicles, and essential equipment.</p>
+            </div>
+            <div class="glass rounded-xl p-8 bg-black/70">
+                <h3 class="text-xl font-bold mb-4">Revenue-Based Financing</h3>
+                <p class="text-gray-200">Use your future cash flow to qualify for funding today.</p>
+            </div>
+        </div>
+        <div class="text-center mt-12">
+            <a href="#" class="bg-ecru text-night px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-all inline-block">
+                Discover My Funding Options
+            </a>
+        </div>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section class="py-20 px-6 bg-gradient-to-b from-transparent to-night/50">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Success Stories</h2>
+            <p class="text-xl mb-8 text-ecru">Real Business Owners, Real Results</p>
+            
+            <div class="grid md:grid-cols-3 gap-8 mt-8">
+                <div class="glass-dark rounded-xl p-8">
+                    <div class="flex justify-center mb-4">
+                        <i class="fas fa-quote-left text-3xl text-ecru/60"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"MAAJ Capital got me $100,000 in funding when banks kept rejecting me."</p>
+                    <p class="text-ecru font-semibold">– Cheryl R.</p>
+                    <p class="text-sm text-gray-400">Small Business Owner</p>
+                </div>
+                <div class="glass-dark rounded-xl p-8">
+                    <div class="flex justify-center mb-4">
+                        <i class="fas fa-quote-left text-3xl text-ecru/60"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"I finally built my business credit profile and got approved without using my Social Security number!"</p>
+                    <p class="text-ecru font-semibold">– Louis M.</p>
+                    <p class="text-sm text-gray-400">E-commerce Owner</p>
+                </div>
+                <div class="glass-dark rounded-xl p-8">
+                    <div class="flex justify-center mb-4">
+                        <i class="fas fa-quote-left text-3xl text-ecru/60"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Within 3 months, I secured over $50,000 in funding. I highly recommend MAAJ Capital!"</p>
+                    <p class="text-ecru font-semibold">– Brian T.</p>
+                    <p class="text-sm text-gray-400">Restaurant Owner</p>
+                </div>
+            </div>
+            
+            <div class="mt-8 mb-8">
+                <p class="text-xl text-ecru">Verified 5-Star Ratings | Trusted by Thousands of Business Owners</p>
+            </div>
+            
+            <a href="#" class="bg-ecru text-night px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-all inline-block">
+                Start My Free Funding Plan
+            </a>
+            
+            <script>
+                lucide.createIcons();
+            </script>
+        </div>
+    </section>
+
+    <!-- Meet Melvin Johnson Section -->
+    <section class="py-20 px-6 bg-gradient-to-b from-night/30 to-black">
+        <div class="container mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="relative">
+                <div class="glass rounded-2xl overflow-hidden">
+                    <img src="https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg" alt="Melvin Johnson" class="w-full h-[500px] object-cover">
+                </div>
+                <div class="glass absolute top-4 left-4 p-6 rounded-xl">
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-ecru/60 p-3 rounded-lg">
+                            <i class="fas fa-award text-white"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-800">Expert Since</p>
+                            <p class="text-2xl font-bold">2010</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold mb-6">Meet Melvin Johnson</h2>
+                <p class="text-xl text-ecru mb-4">Your Trusted Business Funding Partner</p>
+                <p class="text-gray-300 mb-6">
+                    Melvin is a seasoned business funding expert with over a decade of experience in business credit and financing strategies. He has helped thousands of businesses unlock funding, build credit, and scale their operations.
+                </p>
+                <div class="glass-dark p-6 rounded-xl mb-6">
+                    <p class="text-xl italic text-ecru">"My mission is to help business owners access capital the RIGHT way – without predatory lending or hidden fees."</p>
+                </div>
+                <p class="text-gray-300 mb-4">As Seen On:</p>
+                <p class="text-ecru font-semibold mb-6">Forbes | Entrepreneur | Business Insider</p>
+                <p class="text-gray-300 mb-6">Work With a Trusted Expert. No B.S. Just Results.</p>
+                <a href="#" class="bg-ecru text-night px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-all inline-block">
+                    Schedule a Free Funding Consultation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 px-6">
+        <div class="container mx-auto text-center mb-12">
+            <h2 class="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
+        </div>
+        <div class="container mx-auto max-w-4xl">
+            <div class="glass-dark rounded-xl p-8 mb-6">
+                <h3 class="text-xl font-bold mb-4 text-ecru">Who qualifies for funding?</h3>
+                <p class="text-gray-300">Any business owner with an LLC, EIN, and active revenue stream can apply.</p>
+            </div>
+            <div class="glass-dark rounded-xl p-8 mb-6">
+                <h3 class="text-xl font-bold mb-4 text-ecru">Does this affect my credit score?</h3>
+                <p class="text-gray-300">No! Our funding process does not impact your personal credit.</p>
+            </div>
+            <div class="glass-dark rounded-xl p-8 mb-6">
+                <h3 class="text-xl font-bold mb-4 text-ecru">How fast can I get funded?</h3>
+                <p class="text-gray-300">Many clients receive funding in as little as 48 hours!</p>
+            </div>
+            <div class="glass-dark rounded-xl p-8 mb-6">
+                <h3 class="text-xl font-bold mb-4 text-ecru">What makes MAAJ Capital different?</h3>
+                <p class="text-gray-300">Unlike banks, we provide personalized funding solutions with no hidden fees and no unnecessary paperwork.</p>
+            </div>
+        </div>
+        <div class="text-center mt-12">
+            <a href="#" class="bg-ecru text-night px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-all inline-block">
+                Find Out What You Qualify For
+            </a>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-20 px-6 bg-gradient-to-b from-transparent to-night/50 relative overflow-hidden">
+        <!-- Central gradient circle for the entire section -->
+        <div class="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] rounded-full bg-[rgb(203,177,113)] opacity-10 blur-3xl"></div>
+        
+        <div class="container mx-auto text-center relative z-10 max-w-4xl">
+            <h2 class="text-4xl font-bold mb-6">Let's Find Your Funding – No Risk, No Upfront Fees!</h2>
+            <p class="text-xl mb-8 text-gray-300">
+                Get a personalized business funding plan from MAAJ Capital today.
+            </p>
+            <div class="glass-dark rounded-xl p-8 mb-8">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="flex items-center justify-center">
+                        <i class="fas fa-phone text-ecru text-2xl mr-4"></i>
+                        <div class="text-left">
+                            <p class="text-sm text-gray-400">Call Us:</p>
+                            <p class="text-xl font-semibold">(847) 920-4473</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <i class="fas fa-envelope text-ecru text-2xl mr-4"></i>
+                        <div class="text-left">
+                            <p class="text-sm text-gray-400">Email Us:</p>
+                            <p class="text-xl font-semibold">melvin@maajcapital.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-xl text-ecru mb-8">100% Transparent | No Hidden Fees | Fast Approvals</p>
+            <a href="#" class="bg-ecru text-night px-12 py-6 rounded-lg font-bold text-xl hover:bg-opacity-90 transition-all inline-block">
+                Start My Free Funding Plan
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 bg-black">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <img class="h-16 w-16 mb-4" src="log01.png" alt="MAAJ Capital Logo">
+                    <p class="text-gray-400">Helping businesses access the capital they need to grow and thrive.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Company Info</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-ecru transition-colors">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-ecru transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-ecru transition-colors">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-ecru transition-colors">Business Loans</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-ecru transition-colors">Business Credit</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-ecru transition-colors">Funding Solutions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect With Us</h3>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-400 hover:text-ecru transition-colors"><i class="fab fa-facebook-f text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-ecru transition-colors"><i class="fab fa-linkedin-in text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-ecru transition-colors"><i class="fab fa-youtube text-xl"></i></a>
+                        <a href="https://www.instagram.com/melvin_johnson12/" class="text-gray-400 hover:text-ecru transition-colors" target="_blank"><i class="fab fa-instagram text-xl"></i></a>
+                    </div>
+                    <p class="text-gray-400">Secure Financing With Confidence:</p>
+                    <p class="text-gray-400">SSL Secured | Verified Business Partner</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p class="text-gray-500">© 2024 MAAJ Capital. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
